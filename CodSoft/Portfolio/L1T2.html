@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #a00adb;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        #about img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        .skills, .projects {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .skill, .project {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+            width: 200px;
+            background-color: #f9f9f9;
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        a {
+            color: #a00adb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ankit Kumar</h1>
+    <p>Web Developer | Cybersecurity Enthusiast</p>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjclDv0e9IVQdcKL5CgI8DITEgglEavaKqww&s" alt="Ankit Kumar ">
+    <p>Hello! I'm Ankit, a passionate web developer with expertise in HTML, CSS, JavaScript, and cybersecurity. I enjoy creating beautiful and functional websites.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">Cybersecurity</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlmfoBam95wp33qiXM19i8IUk-Ee_npRJoAA&s" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>This project is about birds and there eyes color.</p>
+        </div>
+        <div class="project">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgoRAM8VbTHTlFwB9v3BRa0ZlFUioRZH5lqQ&s" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>This project is an animation about human eyes workings.</p>
+        </div>
+    </div>
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <p>Download my <a href="#">resume</a> in PDF format.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:ankit@example.com">ankit@example.com</a></p>
+    <p>Phone: +91 9876543210</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Ankit Kumar. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

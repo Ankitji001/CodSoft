@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #0a30ef;
+            color: rgba(254, 249, 249, 0.911);
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #292727;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: rgba(255, 255, 255, 0.788);
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .toy {
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            text-align: center;
+        }
+
+        .toy h1 {
+            font-size: 3rem;
+        }
+
+        .toy p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+
+        .sections {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .section {
+            flex: 1 1 calc(33.33% - 2rem);
+            background-color: #f4f4f4;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.189);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Landing Page</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="toy">
+    <div>
+        <h1>Impressive Headline Here</h1>
+        <p>Write a short and compelling subheading to grab the user's attention and encourage further exploration of your content.</p>
+    </div>
+</div>
+
+<section class="sections">
+    <div class="section">
+        <h2>Section 1</h2>
+        <p>Describe the content of this section. It could be an introduction to your services or a unique value proposition.</p>
+    </div>
+    <div class="section">
+        <h2>Section 2</h2>
+        <p>Provide details about your offerings, features, or benefits that stand out.</p>
+    </div>
+    <div class="section">
+        <h2>Section 3</h2>
+        <p>Explain how users can get started or provide testimonials, case studies, or success stories.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy;  2025 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
